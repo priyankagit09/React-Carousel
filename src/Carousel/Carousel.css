@@ -1,0 +1,43 @@
+.bg-cont {
+    margin: 30px;
+}
+.slick-arrow.slick-prev, 
+.slick-arrow.slick-next {
+    background-color: #fcfcfc;
+    width: 47px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.slick-prev {
+    left: 0;
+    border-radius: 4px;
+}
+
+.slick-next {
+    right: 0;
+    border-radius: 4px;
+}
+
+.slick-prev::before, .slick-next::before {
+    display: none;
+}
+
+
+.custom-indicator  {
+  
+   bottom: -65px;
+
+}
+.custom-indicator li{
+   width: 50px;
+   height: 50px;
+   filter: grayscale(100%)
+ 
+ }
+
+.custom-indicator li.slick-active {
+    filter: grayscale(0%)
+} 
